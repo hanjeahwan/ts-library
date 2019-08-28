@@ -1,0 +1,26 @@
+{
+  "name": "ts-library",
+  "version": "1.0.0",
+  "author": "hanjeahwan@gmail.com",
+  "description": "typescript library boilerplate",
+  "private": true,
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/index.ts",
+    "start:prod": "node dist/index.js",
+    "serve": " nodemon",
+    "build": "rimraf dist && tsc -p tsconfig.build.json && cpx package.json dist"
+  },
+  "types": "dist/index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.0.4",
+    "cpx": "^1.5.0",
+    "nodemon": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "ts-node": "^8.2.0",
+    "tsconfig-paths": "^3.8.0",
+    "tslint": "^5.17.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.1"
+  }
+}
