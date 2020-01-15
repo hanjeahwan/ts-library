@@ -1,2 +1,3 @@
-# ts-library
+# itour
+
 Minimal Typescript Library Boilerplate
