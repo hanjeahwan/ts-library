@@ -10,7 +10,6 @@ export default class ITour {
   }
 
   public start() {
-    console.log("log: ITour -> start -> start");
     this.overlay.show();
   }
 }
